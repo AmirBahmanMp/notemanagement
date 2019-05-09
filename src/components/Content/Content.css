@@ -1,0 +1,50 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    flex: 1 0 auto;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.content__Form {
+    display: flex;
+    justify-content: center;
+}
+
+.content__card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    padding: 1.25rem;
+    width: 500px;
+}
+
+.content__title {
+    display: flex;
+    justify-content: center;
+}
+
+.content__subtitle {
+    display: flex;
+    justify-content: center;
+}
+
+.content__list-group {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    width: 500px;
+}
+
+.content__notes__li {
+    margin-bottom: 0.5em;
+}

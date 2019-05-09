@@ -7,8 +7,8 @@ import Content from '../Content/Content';
 
 const App = props => (
     <div className="app__container">
-        <Header className="app__header" />
-        <Content {...props} className="app__content" />
+        <Header />
+        <Content {...props} />
     </div>
 );
 
